@@ -58,3 +58,11 @@ TDD는 작은 단위에 테스트 케이스를 작성하고 이를 통과하는 
 #### ATDD(인수테스트)는 또 무엇인가요? :scream:
 개발 이전에 사용자, 테스터 및 개발자가 인수조건(Acceptance Creteria)을 정의하는 협업 실천법이에요.  
 모든 프로젝트 구성원이 **수행해야 할 작업과 요구사항을 정확히 이해할수 있도록** 도와줘요.
+
+## 기술 스택은 아래와 같습니다 📝
+- Java 17
+- Gradle 7.3
+- Spring Boot 2.6
+- Spring Data Jpa
+- H2 Database
+- REST-assured
