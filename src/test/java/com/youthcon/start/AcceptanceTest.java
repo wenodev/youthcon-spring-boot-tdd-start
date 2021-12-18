@@ -1,16 +1,5 @@
 package com.youthcon.start;
 
-import io.restassured.RestAssured;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.boot.web.server.LocalServerPort;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.MediaType;
-
-import static io.restassured.RestAssured.*;
-import static org.hamcrest.Matchers.equalTo;
-
 /*
 시나리오
 - 리뷰를 조회할 수 있게 해주세요.
