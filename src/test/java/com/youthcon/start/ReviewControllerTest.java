@@ -26,9 +26,9 @@ public class ReviewControllerTest {
     @MockBean
     private ReviewService reviewService;
 
-    private Long id = 2L;
-    private String  content = "재밌어요!";
-    private String phoneNumber = "010-1111-2223";
+    private Long id = 1L;
+    private String  content = "재밌어요";
+    private String phoneNumber = "010-1111-2222";
 
     @Test
     void 후기조회는_id가_존재한다면_저장된_id와_200을_리턴한다() throws Exception {

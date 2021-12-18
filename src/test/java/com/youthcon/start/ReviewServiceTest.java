@@ -21,9 +21,9 @@ class ReviewServiceTest {
     private ReviewRepository reviewRepository = mock(ReviewRepository.class);
     private ReviewService reviewService = new ReviewService(reviewRepository, giftApi);
 
-    private Long id = 2L;
-    private String  content = "재밌어요!";
-    private String phoneNumber = "010-1111-2223";
+    private Long id = 1L;
+    private String  content = "재밌어요";
+    private String phoneNumber = "010-1111-2222";
 
     @Test
     void 후기_조회_성공(){
