@@ -13,7 +13,7 @@ public class Review {
     private Long id;
     private String content;
     private String phoneNumber;
-    private Boolean isSent;
+    private Boolean sent;
 
     public Review() {
     }
@@ -28,7 +28,7 @@ public class Review {
         this.id = id;
         this.content = content;
         this.phoneNumber = phoneNumber;
-        this.isSent = isSent;
+        this.sent = isSent;
     }
 
     public Long getId() {
@@ -43,11 +43,11 @@ public class Review {
         return phoneNumber;
     }
 
-    public Boolean getIsSent() {
-        return isSent;
+    public Boolean getSent() {
+        return sent;
     }
 
     public void makeTrue() {
-        this.isSent = true;
+        this.sent = true;
     }
 }

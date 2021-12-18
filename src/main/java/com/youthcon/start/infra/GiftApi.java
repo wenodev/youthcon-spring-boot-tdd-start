@@ -10,8 +10,7 @@ import org.springframework.web.client.RestTemplate;
 public class GiftApi {
 
     private RestTemplate restTemplate = new RestTemplate();
-//    private final String URL = "http://youthcon.seok2.dev/apis/v1/send";
-    private final String URL = "http://youth2323con.seok2.dev/apis/v1/send23232";
+    private final String URL = "http://youthcon.seok2.dev/apis/v1/send";
 
     private final Integer AMOUNT = 1000;
 
