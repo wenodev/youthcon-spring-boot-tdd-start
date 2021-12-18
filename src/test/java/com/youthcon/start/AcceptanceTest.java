@@ -1,7 +1,15 @@
 package com.youthcon.start;
 
+import io.restassured.RestAssured;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.web.server.LocalServerPort;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
+
+import static io.restassured.RestAssured.*;
+import static org.hamcrest.Matchers.equalTo;
 
 /*
 시나리오
@@ -20,11 +28,5 @@ import org.springframework.boot.test.context.SpringBootTest;
 - [ ] 선물하기에 성공하면 후기의 현재 상태를 응답합니다. (200 OK)
 - [ ] 선물하기는 아래의 API를 호출하여 수행합니다.
  */
-@SpringBootTest
-class StartApplicationTests {
-
-	@Test
-	void contextLoads() {
-	}
-
+class AcceptanceTest {
 }
