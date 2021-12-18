@@ -34,7 +34,6 @@ class ReviewRepositoryTest {
                 // 실행
                 reviewRepository.findById(1000L)
                         .orElseThrow(() -> new ReviewNotFoundException("no review id :" + 1000L)))
-
                 // 검증
                 .isInstanceOf(ReviewNotFoundException.class);
     }
