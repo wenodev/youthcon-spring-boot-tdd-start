@@ -50,9 +50,9 @@ class AcceptanceTest {
         // then , assert, 검증
         .then()
                 .statusCode(HttpStatus.OK.value())
-                .assertThat().body("id", equalTo(1))
-                .assertThat().body("content", equalTo("재밌어요"))
-                .assertThat().body("phoneNumber", equalTo("010-1111-2222"));
+                .body("id", equalTo(1))
+                .body("content", equalTo("재밌어요"))
+                .body("phoneNumber", equalTo("010-1111-2222"));
     }
 
     @Test
@@ -79,7 +79,7 @@ class AcceptanceTest {
         // 검증
         .then()
                 .statusCode(HttpStatus.OK.value())
-                .assertThat().body("sent", equalTo(true));
+                .body("sent", equalTo(true));
     }
 
 }
